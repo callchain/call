@@ -1,0 +1,17 @@
+syntax = "proto3";
+package call.call;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "call/call/params.proto";
+
+option go_package = "call/x/call/types";
+
+// GenesisState defines the call module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}
