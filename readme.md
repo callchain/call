@@ -1,5 +1,11 @@
-# call
-**call** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
+# Call
+**Call** is a asset blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli). Version 2 of old callchain.
+
+## Task
+
+ - Controllable token
+ - Configurable account
+ - Liveable blockchain data
 
 ## Get started
 
